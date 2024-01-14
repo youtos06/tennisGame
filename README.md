@@ -32,12 +32,7 @@ To use the Tennis Game Kata main in [App.java](src/main/java/org/example/App.jav
 
 #### Example:
 
-```java
-// Create an instance of the Game class with a valid script
-String validScript = "AAABBB";
-Game game = new Game(validScript);
-
-// Run the game
+```
 try {
      IGame tennisGame = new TennisGame("ABABAA");
     System.out.println(tennisGame.runTheGame());
