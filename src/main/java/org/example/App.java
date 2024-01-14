@@ -48,7 +48,6 @@ class TennisGame implements IGame{
         return this.play();
     }
 
-    // O(n)
     public void validator(){
         for(char c: this.script.toCharArray()){
             if(c !='A' && c != 'B') throw new InvalidGameException("Invalid game script : non supported characters");
